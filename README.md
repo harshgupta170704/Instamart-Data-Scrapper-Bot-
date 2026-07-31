@@ -8,6 +8,9 @@ Built with **Playwright** and **asyncio**, this bot launches **5 Chrome windows 
 
 ## Demo — 5 Parallel Chrome Workers in Action
 
+### Live Scraping Proof
+![Live Scraping Proof](screenshots/real_parallel_scraping.png)
+
 ### Architecture
 ![Architecture Diagram](screenshots/architecture_diagram.jpg)
 
