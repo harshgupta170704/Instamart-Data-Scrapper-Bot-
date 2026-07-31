@@ -6,6 +6,25 @@ Built with **Playwright** and **asyncio**, this bot launches **5 Chrome windows 
 
 ---
 
+## Demo — 5 Parallel Chrome Workers in Action
+
+### Architecture
+![Architecture Diagram](screenshots/architecture_diagram.jpg)
+
+### 5 Chrome Windows Scraping Simultaneously
+![5 Parallel Chrome Windows](screenshots/parallel_chrome_windows.jpg)
+
+### Live Terminal Output — Workers Running in Parallel
+![Terminal Output](screenshots/terminal_output.jpg)
+
+### Scraping Completed — 36,000+ Records in 22 Minutes
+![Scraping Complete](screenshots/scraping_complete.jpg)
+
+### Output Data Preview
+![CSV Data Preview](screenshots/csv_data_preview.jpg)
+
+---
+
 ## How It Works
 
 ```
@@ -196,6 +215,12 @@ Instamart-Data-Scrapper-Bot-/
 |-- keywords.txt            # Search keywords (one per line)
 |-- locations.csv           # City coordinates (name, lat, lon)
 |-- requirements.txt        # Python dependencies
+|-- screenshots/            # Proof of parallel scraping in action
+|   |-- architecture_diagram.jpg
+|   |-- parallel_chrome_windows.jpg
+|   |-- terminal_output.jpg
+|   |-- scraping_complete.jpg
+|   |-- csv_data_preview.jpg
 |-- sample_output/          # Example output from a real run
 |   |-- instamart_results_sample.csv
 |-- README.md
